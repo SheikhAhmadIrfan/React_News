@@ -1,0 +1,25 @@
+.headercontainer {
+  display: flex;
+}
+.ul {
+  display: flex;
+  text-decoration: none;
+  padding: 0px 6px;
+  margin-top: 20px;
+}
+.ul li {
+  list-style: none;
+  padding-inline: 30px;
+  cursor: pointer;
+}
+.one img {
+  height: 60px;
+  width: 75px;
+  padding-left: 100px;
+}
+.vertical {
+  border-left: 2px solid black;
+  height: 40px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
