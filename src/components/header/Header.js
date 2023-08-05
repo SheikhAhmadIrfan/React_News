@@ -1,3 +1,5 @@
+//It is a little bit simpe and not responsice
+
 import logo from "../../assets/images/logo.jpeg";
 import classes from './Header.module.css'
 const Header = () => {
