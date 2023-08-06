@@ -8,11 +8,11 @@ export const Homeslice = createSlice({
     item: [],
     isError: false,
     err: false,
-    title:null
+    title: null,
   },
   reducers: {
     toggleError(state, action) {
-      console.log(action.payload)
+      console.log(action.payload);
       state.err = action.payload.flag;
       state.title = action.payload.title;
     },
