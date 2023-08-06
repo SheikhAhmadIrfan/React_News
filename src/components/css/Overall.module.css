@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    color: purple;
+}
+.heading h1{
+    text-align: center;
+    color: black;
+}
+.story{
+    display: flex;
+    margin: 20px;
+}
+.explore{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+.explore1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px; 
+    justify-content: center;
+}

@@ -1,6 +1,8 @@
 import logo from "../../assets/images/logo.jpeg";
 import classes from './Header.module.css'
+import { useNavigate } from "react-router-dom";
 const Header = () => {
+  const navigate=useNavigate();
   return (
     <div className={classes.headercontainer}>
       <div className={classes.one}>
@@ -8,14 +10,13 @@ const Header = () => {
       </div>
       <div className={classes.vertical}></div>
       <ul className={classes.ul}>
-        <li>Home</li>
-        <li>News</li>
-        <li>Sport</li>
-        <li>Reel</li>
-        <li>WorkLife</li>
-        <li>Travel</li>
-        <li>Future</li>
-        <li>Culture</li>
+        <li onClick={()=>navigate('/')}>Home</li>
+        <li onClick={()=>navigate('/tech')}>Tech</li>
+        <li onClick={()=>navigate('/sports')}>Sport</li>
+        <li onClick={()=>navigate('/worklife')}>WorkLife</li>
+        <li onClick={()=>navigate('/travel')}>Travel</li>
+        <li onClick={()=>navigate('/future')}>Future</li>
+        <li onClick={()=>navigate('/culture')}>Culture</li>
       </ul>
     </div>
   );

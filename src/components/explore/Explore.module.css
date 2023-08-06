@@ -1,0 +1,11 @@
+.explorecontainer{
+    width: 54rem;
+    cursor:pointer;
+}
+.exploreimage img{
+    height: 30rem;
+    width: 54rem;
+}
+.exploreheading p{
+    font-size: 18px;
+}
