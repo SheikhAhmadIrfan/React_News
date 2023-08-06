@@ -1,0 +1,13 @@
+.storycontainer{
+    display: flex;
+    flex-direction: column;
+    width: 29rem;
+    cursor: pointer;
+}
+.storycontainer img{
+    height: 135px;
+    width: 195px;
+}
+.storycontainer p{
+    font-size: 20px;
+}

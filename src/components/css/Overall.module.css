@@ -1,0 +1,148 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  color: purple;
+}
+.heading h1 {
+  text-align: center;
+  color: black;
+}
+.story {
+  display: flex;
+  margin: 20px;
+  gap:30px;
+}
+.explore {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+.explore1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+@media (max-width: 601px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    color: purple;
+  }
+  .heading h1 {
+    text-align: center;
+    color: black;
+    margin-left: 16rem;
+    width: 45rem;
+    font-size: 35px;
+  }
+
+  .story {
+    display: flex;
+    margin: 20px;
+    margin-left: 10px;
+    gap: 10px;
+  }
+  .explore {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  .explore1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-left: 630px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    color: purple;
+  }
+  .heading h1 {
+    text-align: center;
+    color: black;
+    margin-left: 21rem;
+    width: 42rem;
+    font-size: 33px;
+  }
+  .story {
+    display: flex;
+    margin: 20px;
+    margin-left: 14px;
+    gap: 27px;
+  }
+  .explore {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  .explore1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-left: 34rem;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1300px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    color: purple;
+  }
+  .heading h1 {
+    text-align: center;
+    color: black;
+    margin-left: 21rem;
+    width: 42rem;
+    font-size: 33px;
+  }
+  .story {
+    display: flex;
+    margin: 20px;
+    margin-left: 14px;
+    gap: 27px;
+  }
+  .explore {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  .explore1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin-left: -13rem;
+    position: relative;
+    left: 261px;
+  }
+}
