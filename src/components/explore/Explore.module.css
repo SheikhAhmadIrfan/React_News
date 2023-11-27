@@ -1,0 +1,55 @@
+.explorecontainer{
+    width: 54rem;
+    cursor:pointer;
+}
+.exploreimage img{
+    height: 30rem;
+    width: 54rem;
+}
+.exploreheading p{
+    font-size: 18px;
+}
+@media (max-width: 601px) {
+    .explorecontainer{
+        width: 54rem;
+        cursor:pointer;
+    }
+    .exploreimage img{
+        height: 30rem;
+        width: 46rem;
+    }
+    .exploreimage{
+        margin-left: 15px;
+    }
+    .exploreheading{
+        margin-left: 15px;
+    }
+    .exploreheading p{
+        font-size: 18px;
+    }
+    .exploreheading p{
+        font-size: 25px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .explorecontainer{
+        width: 54rem;
+        cursor:pointer;
+    }
+    .exploreimage img{
+        height: 30rem;
+        width: 52rem;
+    }
+    .exploreimage{
+        margin-left: 15px;
+    }
+    .exploreheading{
+        margin-left: 15px;
+    }
+    .exploreheading p{
+        font-size: 18px;
+    }
+    .exploreheading p{
+        font-size: 25px;
+    }
+}
